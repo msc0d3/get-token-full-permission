@@ -1,0 +1,215 @@
+Renamed Types:
+
+[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject -> [GetFullTokenFacebook]A.B
+{
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject::get_Computer[0]( ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject::get_Application[0]( ) -> a
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject::get_User[0]( ) -> B
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject::get_Forms[0]( ) -> b
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject::get_WebServices[0]( ) -> C
+
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject::.cctor[0]( ) skipped:  special name
+
+	GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1<GetFullTokenFacebook.My.MyComputer> [GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1<GetFullTokenFacebook.My.MyComputer> GetFullTokenFacebook.My.MyProject::m_ComputerObjectProvider -> A
+	GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1<GetFullTokenFacebook.My.MyApplication> [GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1<GetFullTokenFacebook.My.MyApplication> GetFullTokenFacebook.My.MyProject::m_AppObjectProvider -> A
+	GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1<Microsoft.VisualBasic.ApplicationServices.User> [GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1<Microsoft.VisualBasic.ApplicationServices.User> GetFullTokenFacebook.My.MyProject::m_UserObjectProvider -> A
+	GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1<GetFullTokenFacebook.My.MyProject/MyForms> [GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1<GetFullTokenFacebook.My.MyProject/MyForms> GetFullTokenFacebook.My.MyProject::m_MyFormsObjectProvider -> A
+	GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1<GetFullTokenFacebook.My.MyProject/MyWebServices> [GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1<GetFullTokenFacebook.My.MyProject/MyWebServices> GetFullTokenFacebook.My.MyProject::m_MyWebServicesObjectProvider -> A
+
+	GetFullTokenFacebook.My.MyComputer [GetFullTokenFacebook]GetFullTokenFacebook.My.MyComputer GetFullTokenFacebook.My.MyProject::Computer -> A
+	GetFullTokenFacebook.My.MyApplication [GetFullTokenFacebook]GetFullTokenFacebook.My.MyApplication GetFullTokenFacebook.My.MyProject::Application -> a
+	Microsoft.VisualBasic.ApplicationServices.User [GetFullTokenFacebook]Microsoft.VisualBasic.ApplicationServices.User GetFullTokenFacebook.My.MyProject::User -> B
+	GetFullTokenFacebook.My.MyProject/MyForms [GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyForms GetFullTokenFacebook.My.MyProject::Forms -> b
+	GetFullTokenFacebook.My.MyProject/MyWebServices [GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyWebServices GetFullTokenFacebook.My.MyProject::WebServices -> C
+}
+
+[GetFullTokenFacebook]GetFullTokenFacebook.My.Resources.Resources -> [GetFullTokenFacebook]A.b
+{
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.Resources.Resources::get_ResourceManager[0]( ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.Resources.Resources::get_Culture[0]( ) -> a
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.Resources.Resources::set_Culture[1]( [mscorlib]System.Globalization.CultureInfo ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.Resources.Resources::get_adb[0]( ) -> B
+
+	System.Resources.ResourceManager [GetFullTokenFacebook]System.Resources.ResourceManager GetFullTokenFacebook.My.Resources.Resources::resourceMan -> A
+	System.Globalization.CultureInfo [GetFullTokenFacebook]System.Globalization.CultureInfo GetFullTokenFacebook.My.Resources.Resources::resourceCulture -> A
+
+	System.Resources.ResourceManager [GetFullTokenFacebook]System.Resources.ResourceManager GetFullTokenFacebook.My.Resources.Resources::ResourceManager -> A
+	System.Globalization.CultureInfo [GetFullTokenFacebook]System.Globalization.CultureInfo GetFullTokenFacebook.My.Resources.Resources::Culture -> a
+	System.Byte[] [GetFullTokenFacebook]System.Byte[] GetFullTokenFacebook.My.Resources.Resources::adb -> dropped
+}
+
+[GetFullTokenFacebook]GetFullTokenFacebook.My.MySettings -> [GetFullTokenFacebook]A.C
+{
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MySettings::AutoSaveSettings[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MySettings::get_Default[0]( ) -> A
+
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MySettings::.cctor[0]( ) skipped:  special name
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MySettings::.ctor[0]( ) skipped:  special name
+
+	GetFullTokenFacebook.My.MySettings [GetFullTokenFacebook]GetFullTokenFacebook.My.MySettings GetFullTokenFacebook.My.MySettings::defaultInstance -> A
+	System.Boolean [GetFullTokenFacebook]System.Boolean GetFullTokenFacebook.My.MySettings::addedHandler -> A
+	System.Object [GetFullTokenFacebook]System.Object GetFullTokenFacebook.My.MySettings::addedHandlerLockObject -> A
+
+	GetFullTokenFacebook.My.MySettings [GetFullTokenFacebook]GetFullTokenFacebook.My.MySettings GetFullTokenFacebook.My.MySettings::Default -> dropped
+}
+
+[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyForms -> [GetFullTokenFacebook]A.B/A
+{
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyForms::Create__Instance__[1]( !0 ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyForms::Dispose__Instance__[1]( [GetFullTokenFacebook]T& ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyForms::GetType[0]( ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyForms::get_Form1[0]( ) -> a
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyForms::set_Form1[1]( [GetFullTokenFacebook]GetFullTokenFacebook.Form1 ) -> A
+
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyForms::.ctor[0]( ) skipped:  special name
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyForms::Equals[1]( [mscorlib]System.Object ) skipped:  external base class or interface
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyForms::GetHashCode[0]( ) skipped:  external base class or interface
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyForms::ToString[0]( ) skipped:  external base class or interface
+
+	System.Collections.Hashtable [GetFullTokenFacebook]System.Collections.Hashtable GetFullTokenFacebook.My.MyProject/MyForms::m_FormBeingCreated -> A
+	GetFullTokenFacebook.Form1 [GetFullTokenFacebook]GetFullTokenFacebook.Form1 GetFullTokenFacebook.My.MyProject/MyForms::m_Form1 -> A
+
+	GetFullTokenFacebook.Form1 [GetFullTokenFacebook]GetFullTokenFacebook.Form1 GetFullTokenFacebook.My.MyProject/MyForms::Form1 -> dropped
+}
+
+[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1 -> [GetFullTokenFacebook]A.B/B`1
+{
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1::get_GetInstance[0]( ) -> A
+
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1::.ctor[0]( ) skipped:  special name
+
+	T [GetFullTokenFacebook]T GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1::m_ThreadStaticValue -> A
+
+	A [GetFullTokenFacebook]A GetFullTokenFacebook.My.MyProject/ThreadSafeObjectProvider`1::GetInstance -> dropped
+}
+
+[GetFullTokenFacebook]GetFullTokenFacebook.My.MySettingsProperty -> [GetFullTokenFacebook]A.c
+{
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MySettingsProperty::get_Settings[0]( ) -> A
+
+	GetFullTokenFacebook.My.MySettings [GetFullTokenFacebook]GetFullTokenFacebook.My.MySettings GetFullTokenFacebook.My.MySettingsProperty::Settings -> A
+}
+
+[GetFullTokenFacebook]GetFullTokenFacebook.My.MyApplication -> [GetFullTokenFacebook]A.A
+{
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyApplication::Main[1]( [mscorlib]System.String[] ) -> A
+
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyApplication::.ctor[0]( ) skipped:  special name
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyApplication::OnCreateMainForm[0]( ) skipped:  external base class or interface
+}
+
+[GetFullTokenFacebook]GetFullTokenFacebook.My.MyComputer -> [GetFullTokenFacebook]A.a
+{
+
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyComputer::.ctor[0]( ) skipped:  special name
+}
+
+[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyWebServices -> [GetFullTokenFacebook]A.B/a
+{
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyWebServices::GetType[0]( ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyWebServices::Create__Instance__[1]( !0 ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyWebServices::Dispose__Instance__[1]( [GetFullTokenFacebook]T& ) -> A
+
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyWebServices::Equals[1]( [mscorlib]System.Object ) skipped:  external base class or interface
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyWebServices::GetHashCode[0]( ) skipped:  external base class or interface
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyWebServices::ToString[0]( ) skipped:  external base class or interface
+	[GetFullTokenFacebook]GetFullTokenFacebook.My.MyProject/MyWebServices::.ctor[0]( ) skipped:  special name
+}
+
+Skipped Types:
+
+[GetFullTokenFacebook]GetFullTokenFacebook.Form1 skipped:  KeepPublicApi option in configuration
+{
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::Button1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::Form1_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> a
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::btnCopyToken_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> B
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::btnCopyCookie_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> b
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::ToolStripStatusLabel1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> C
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::BackgroundWorker1_DoWork[2]( [mscorlib]System.Object, [System]System.ComponentModel.DoWorkEventArgs ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::InitializeComponent[0]( ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_Button1[0]( ) -> a
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_Button1[1]( [System.Windows.Forms]System.Windows.Forms.Button ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_txtToken[0]( ) -> B
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_txtToken[1]( [System.Windows.Forms]System.Windows.Forms.TextBox ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_txtCookie[0]( ) -> b
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_txtCookie[1]( [System.Windows.Forms]System.Windows.Forms.TextBox ) -> a
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_txtUID[0]( ) -> C
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_txtUID[1]( [System.Windows.Forms]System.Windows.Forms.TextBox ) -> B
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_Label1[0]( ) -> c
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_Label1[1]( [System.Windows.Forms]System.Windows.Forms.Label ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_Label2[0]( ) -> D
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_Label2[1]( [System.Windows.Forms]System.Windows.Forms.Label ) -> a
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_Label3[0]( ) -> d
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_Label3[1]( [System.Windows.Forms]System.Windows.Forms.Label ) -> B
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_btnCopyToken[0]( ) -> E
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_btnCopyToken[1]( [System.Windows.Forms]System.Windows.Forms.Button ) -> a
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_btnCopyCookie[0]( ) -> e
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_btnCopyCookie[1]( [System.Windows.Forms]System.Windows.Forms.Button ) -> B
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_Label4[0]( ) -> F
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_Label4[1]( [System.Windows.Forms]System.Windows.Forms.Label ) -> b
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_StatusStrip1[0]( ) -> f
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_StatusStrip1[1]( [System.Windows.Forms]System.Windows.Forms.StatusStrip ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_ToolStripStatusLabel1[0]( ) -> G
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_ToolStripStatusLabel1[1]( [System.Windows.Forms]System.Windows.Forms.ToolStripStatusLabel ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_Label5[0]( ) -> g
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_Label5[1]( [System.Windows.Forms]System.Windows.Forms.Label ) -> C
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_Label6[0]( ) -> H
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_Label6[1]( [System.Windows.Forms]System.Windows.Forms.Label ) -> c
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_PBar[0]( ) -> h
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_PBar[1]( [System.Windows.Forms]System.Windows.Forms.ToolStripProgressBar ) -> A
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::get_BackgroundWorker1[0]( ) -> I
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::set_BackgroundWorker1[1]( [System]System.ComponentModel.BackgroundWorker ) -> A
+
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::.ctor[0]( ) skipped:  special name
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::RunCharacterCheckASCII[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::Decrypt[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[GetFullTokenFacebook]GetFullTokenFacebook.Form1::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
+
+	System.Diagnostics.Process [GetFullTokenFacebook]System.Diagnostics.Process GetFullTokenFacebook.Form1::My_Process -> A
+	System.Diagnostics.ProcessStartInfo [GetFullTokenFacebook]System.Diagnostics.ProcessStartInfo GetFullTokenFacebook.Form1::My_Process_Info -> A
+	System.Diagnostics.Process [GetFullTokenFacebook]System.Diagnostics.Process GetFullTokenFacebook.Form1::proc -> a
+	System.String [GetFullTokenFacebook]System.String GetFullTokenFacebook.Form1::pProcess -> A
+	System.String [GetFullTokenFacebook]System.String GetFullTokenFacebook.Form1::fT -> a
+	System.ComponentModel.IContainer [GetFullTokenFacebook]System.ComponentModel.IContainer GetFullTokenFacebook.Form1::components -> A
+	System.Windows.Forms.Button [GetFullTokenFacebook]System.Windows.Forms.Button GetFullTokenFacebook.Form1::_Button1 -> A
+	System.Windows.Forms.TextBox [GetFullTokenFacebook]System.Windows.Forms.TextBox GetFullTokenFacebook.Form1::_txtToken -> A
+	System.Windows.Forms.TextBox [GetFullTokenFacebook]System.Windows.Forms.TextBox GetFullTokenFacebook.Form1::_txtCookie -> a
+	System.Windows.Forms.TextBox [GetFullTokenFacebook]System.Windows.Forms.TextBox GetFullTokenFacebook.Form1::_txtUID -> B
+	System.Windows.Forms.Label [GetFullTokenFacebook]System.Windows.Forms.Label GetFullTokenFacebook.Form1::_Label1 -> A
+	System.Windows.Forms.Label [GetFullTokenFacebook]System.Windows.Forms.Label GetFullTokenFacebook.Form1::_Label2 -> a
+	System.Windows.Forms.Label [GetFullTokenFacebook]System.Windows.Forms.Label GetFullTokenFacebook.Form1::_Label3 -> B
+	System.Windows.Forms.Button [GetFullTokenFacebook]System.Windows.Forms.Button GetFullTokenFacebook.Form1::_btnCopyToken -> a
+	System.Windows.Forms.Button [GetFullTokenFacebook]System.Windows.Forms.Button GetFullTokenFacebook.Form1::_btnCopyCookie -> B
+	System.Windows.Forms.Label [GetFullTokenFacebook]System.Windows.Forms.Label GetFullTokenFacebook.Form1::_Label4 -> b
+	System.Windows.Forms.StatusStrip [GetFullTokenFacebook]System.Windows.Forms.StatusStrip GetFullTokenFacebook.Form1::_StatusStrip1 -> A
+	System.Windows.Forms.ToolStripStatusLabel [GetFullTokenFacebook]System.Windows.Forms.ToolStripStatusLabel GetFullTokenFacebook.Form1::_ToolStripStatusLabel1 -> A
+	System.Windows.Forms.Label [GetFullTokenFacebook]System.Windows.Forms.Label GetFullTokenFacebook.Form1::_Label5 -> C
+	System.Windows.Forms.Label [GetFullTokenFacebook]System.Windows.Forms.Label GetFullTokenFacebook.Form1::_Label6 -> c
+	System.Windows.Forms.ToolStripProgressBar [GetFullTokenFacebook]System.Windows.Forms.ToolStripProgressBar GetFullTokenFacebook.Form1::_PBar -> A
+	System.ComponentModel.BackgroundWorker [GetFullTokenFacebook]System.ComponentModel.BackgroundWorker GetFullTokenFacebook.Form1::_BackgroundWorker1 -> A
+
+	System.Windows.Forms.Button [GetFullTokenFacebook]System.Windows.Forms.Button GetFullTokenFacebook.Form1::Button1 -> dropped
+	System.Windows.Forms.TextBox [GetFullTokenFacebook]System.Windows.Forms.TextBox GetFullTokenFacebook.Form1::txtToken -> dropped
+	System.Windows.Forms.TextBox [GetFullTokenFacebook]System.Windows.Forms.TextBox GetFullTokenFacebook.Form1::txtCookie -> dropped
+	System.Windows.Forms.TextBox [GetFullTokenFacebook]System.Windows.Forms.TextBox GetFullTokenFacebook.Form1::txtUID -> dropped
+	System.Windows.Forms.Label [GetFullTokenFacebook]System.Windows.Forms.Label GetFullTokenFacebook.Form1::Label1 -> dropped
+	System.Windows.Forms.Label [GetFullTokenFacebook]System.Windows.Forms.Label GetFullTokenFacebook.Form1::Label2 -> dropped
+	System.Windows.Forms.Label [GetFullTokenFacebook]System.Windows.Forms.Label GetFullTokenFacebook.Form1::Label3 -> dropped
+	System.Windows.Forms.Button [GetFullTokenFacebook]System.Windows.Forms.Button GetFullTokenFacebook.Form1::btnCopyToken -> dropped
+	System.Windows.Forms.Button [GetFullTokenFacebook]System.Windows.Forms.Button GetFullTokenFacebook.Form1::btnCopyCookie -> dropped
+	System.Windows.Forms.Label [GetFullTokenFacebook]System.Windows.Forms.Label GetFullTokenFacebook.Form1::Label4 -> dropped
+	System.Windows.Forms.StatusStrip [GetFullTokenFacebook]System.Windows.Forms.StatusStrip GetFullTokenFacebook.Form1::StatusStrip1 -> dropped
+	System.Windows.Forms.ToolStripStatusLabel [GetFullTokenFacebook]System.Windows.Forms.ToolStripStatusLabel GetFullTokenFacebook.Form1::ToolStripStatusLabel1 -> dropped
+	System.Windows.Forms.Label [GetFullTokenFacebook]System.Windows.Forms.Label GetFullTokenFacebook.Form1::Label5 -> dropped
+	System.Windows.Forms.Label [GetFullTokenFacebook]System.Windows.Forms.Label GetFullTokenFacebook.Form1::Label6 -> dropped
+	System.Windows.Forms.ToolStripProgressBar [GetFullTokenFacebook]System.Windows.Forms.ToolStripProgressBar GetFullTokenFacebook.Form1::PBar -> dropped
+	System.ComponentModel.BackgroundWorker [GetFullTokenFacebook]System.ComponentModel.BackgroundWorker GetFullTokenFacebook.Form1::BackgroundWorker1 -> dropped
+}
+
+Renamed Resources:
+
+
+Skipped Resources:
+
+GetFullTokenFacebook.Form1.resources (KeepPublicApi option in configuration)
+GetFullTokenFacebook.Resources.resources (no clear new name)

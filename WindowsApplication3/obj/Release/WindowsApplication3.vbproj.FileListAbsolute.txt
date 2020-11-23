@@ -1,0 +1,10 @@
+C:\Users\Admin\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\bin\Release\GetFullTokenFacebook.exe
+C:\Users\Admin\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\bin\Release\GetFullTokenFacebook.pdb
+C:\Users\Admin\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\bin\Release\GetFullTokenFacebook.xml
+C:\Users\Admin\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\GetFullTokenFacebook.Form1.resources
+C:\Users\Admin\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\GetFullTokenFacebook.Resources.resources
+C:\Users\Admin\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\WindowsApplication3.vbproj.GenerateResource.Cache
+C:\Users\Admin\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\GetFullTokenFacebook.exe
+C:\Users\Admin\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\GetFullTokenFacebook.xml
+C:\Users\Admin\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\GetFullTokenFacebook.pdb
+C:\Users\Admin\documents\visual studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Release\WindowsApplication3.vbprojResolveAssemblyReference.cache
